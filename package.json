@@ -1,0 +1,19 @@
+{
+  "name": "ingenious-yora",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "web": "pnpm --filter @yora/web dev",
+    "build:web": "pnpm --filter @yora/web build",
+    "lint": "biome lint .",
+    "format": "biome format . --write",
+    "check": "biome check . --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}
