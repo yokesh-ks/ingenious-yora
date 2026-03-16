@@ -156,7 +156,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   Y
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-semibold font-display">Ingenious Yora</span>
+                  <span className="truncate font-semibold font-display">Ingenious One</span>
                   <span className="truncate text-xs text-sidebar-foreground/60">Personal OS</span>
                 </div>
               </a>

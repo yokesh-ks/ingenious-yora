@@ -39,7 +39,7 @@ export function AppLayout() {
         <Outlet />
         <footer className="border-t bg-footer px-6 py-4">
           <p className="text-xs text-footer-foreground/70">
-            Ingenious Yora · Personal Management System
+            Ingenious One · Personal Management System
           </p>
         </footer>
       </SidebarInset>

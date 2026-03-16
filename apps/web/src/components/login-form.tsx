@@ -24,7 +24,7 @@ export function LoginForm({
               <div className="flex flex-col items-center gap-2 text-center">
                 <h1 className="font-display text-2xl font-semibold">Welcome back</h1>
                 <p className="text-balance text-muted-foreground">
-                  Sign in to your Yora account
+                  Sign in to your one account
                 </p>
               </div>
               <Field>
@@ -89,7 +89,7 @@ export function LoginForm({
               </div>
               <div className="text-center">
                 <p className="font-display text-xl font-semibold text-sidebar-foreground">
-                  Ingenious Yora
+                  Ingenious One
                 </p>
                 <p className="mt-1 text-sm text-sidebar-foreground/60">
                   Track your goals, own your tasks,<br />and build the life you actually want.

@@ -1,10 +1,10 @@
 {
-  "name": "ingenious-yora",
+  "name": "ingenious-one",
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "web": "pnpm --filter @yora/web dev",
-    "build:web": "pnpm --filter @yora/web build",
+    "web": "pnpm --filter @one/web dev",
+    "build:web": "pnpm --filter @one/web build",
     "lint": "biome lint .",
     "format": "biome format . --write",
     "check": "biome check . --write"

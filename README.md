@@ -1,8 +1,8 @@
-# Ingenious Yora
+# Ingenious One
 
 > Track your goals, own your tasks, and build the life you actually want.
 
-Ingenious Yora is a personal management system built for people who want clarity over chaos. It gives you the structure to define what matters, the tools to stay on top of it, and the visibility to see how far you've come.
+Ingenious One is a personal management system built for people who want clarity over chaos. It gives you the structure to define what matters, the tools to stay on top of it, and the visibility to see how far you've come.
 
 ---
 
@@ -17,7 +17,7 @@ Ingenious Yora is a personal management system built for people who want clarity
 
 ## Philosophy
 
-Most productivity tools treat you like a machine. Yora doesn't. It's built around the idea that personal growth is intentional — you decide the direction, and Yora helps you stay honest with yourself along the way.
+Most productivity tools treat you like a machine. one doesn't. It's built around the idea that personal growth is intentional — you decide the direction, and one helps you stay honest with yourself along the way.
 
 ---
 
@@ -25,8 +25,8 @@ Most productivity tools treat you like a machine. Yora doesn't. It's built aroun
 
 ```bash
 # Clone the repository
-git clone https://github.com/yokesh-ks/ingenious-yora.git
-cd ingenious-yora
+git clone https://github.com/yokesh-ks/ingenious-one.git
+cd ingenious-one
 
 # Install dependencies
 npm install
@@ -49,7 +49,7 @@ npm run dev
 
 ## Project Status
 
-Ingenious Yora is currently in early development. Expect rapid iteration and evolving features.
+Ingenious One is currently in early development. Expect rapid iteration and evolving features.
 
 ---
 

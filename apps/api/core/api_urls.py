@@ -3,7 +3,7 @@ from django.http import JsonResponse
 
 
 def health(request):
-    return JsonResponse({'status': 'ok', 'service': 'ingenious-yora-api'})
+    return JsonResponse({'status': 'ok', 'service': 'ingenious-one-api'})
 
 
 urlpatterns = [

@@ -95,7 +95,7 @@ export function SignupForm({
               </div>
               <div className="text-center">
                 <p className="font-display text-xl font-semibold text-sidebar-foreground">
-                  Ingenious Yora
+                  Ingenious One
                 </p>
                 <p className="mt-1 text-sm text-sidebar-foreground/60">
                   Track your goals, own your tasks,<br />and build the life you actually want.
