@@ -1,5 +1,4 @@
 import { Briefcase, Building2, CalendarDays, Plus } from "lucide-react"
-import { AppLayout } from "@/components/app-layout"
 import { Button } from "@/components/ui/button"
 
 const applications = [
@@ -26,7 +25,6 @@ const stats = [
 
 export default function JobPage() {
   return (
-    <AppLayout title="Job">
       <main className="flex flex-1 flex-col gap-6 p-6">
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-1">
@@ -76,6 +74,5 @@ export default function JobPage() {
           ))}
         </div>
       </main>
-    </AppLayout>
   )
 }

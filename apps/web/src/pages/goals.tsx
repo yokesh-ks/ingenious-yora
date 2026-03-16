@@ -1,5 +1,4 @@
 import { Plus, Target } from "lucide-react"
-import { AppLayout } from "@/components/app-layout"
 import { Button } from "@/components/ui/button"
 
 const goals = [
@@ -11,7 +10,6 @@ const goals = [
 
 export default function GoalsPage() {
   return (
-    <AppLayout title="Goals">
       <main className="flex flex-1 flex-col gap-6 p-6">
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-1">
@@ -55,6 +53,5 @@ export default function GoalsPage() {
           </button>
         </div>
       </main>
-    </AppLayout>
   )
 }

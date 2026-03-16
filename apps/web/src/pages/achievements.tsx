@@ -1,5 +1,4 @@
 import { Star, Trophy } from "lucide-react"
-import { AppLayout } from "@/components/app-layout"
 
 const achievements = [
   { id: 1, title: "First Goal Set", desc: "You created your first goal.", earned: true, date: "Jan 5" },
@@ -21,7 +20,6 @@ const stats = [
 
 export default function AchievementsPage() {
   return (
-    <AppLayout title="Achievements">
       <main className="flex flex-1 flex-col gap-6 p-6">
         <div className="flex flex-col gap-1">
           <h1 className="font-display text-3xl font-semibold tracking-tight">Achievements</h1>
@@ -68,6 +66,5 @@ export default function AchievementsPage() {
           ))}
         </div>
       </main>
-    </AppLayout>
   )
 }

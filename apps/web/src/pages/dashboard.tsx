@@ -1,5 +1,4 @@
 import { CheckSquare, Target, TrendingUp } from "lucide-react"
-import { AppLayout } from "@/components/app-layout"
 
 const stats = [
   { label: "Active Goals", value: "0" },
@@ -10,7 +9,6 @@ const stats = [
 
 export default function DashboardPage() {
   return (
-    <AppLayout title="Dashboard">
       <main className="flex flex-1 flex-col gap-8 p-6">
         <div className="flex flex-col gap-1">
           <h1 className="font-display text-3xl font-semibold tracking-tight">
@@ -67,6 +65,5 @@ export default function DashboardPage() {
           </div>
         </div>
       </main>
-    </AppLayout>
   )
 }

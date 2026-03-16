@@ -1,5 +1,4 @@
-import { AlertCircle, CheckCircle2, Circle, Clock, Plus } from "lucide-react"
-import { AppLayout } from "@/components/app-layout"
+import { CheckCircle2, Circle, Clock, Plus } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const issues = [
@@ -37,7 +36,6 @@ const counts = {
 
 export default function IssuesPage() {
   return (
-    <AppLayout title="Issues">
       <main className="flex flex-1 flex-col gap-6 p-6">
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-1">
@@ -72,6 +70,5 @@ export default function IssuesPage() {
           ))}
         </div>
       </main>
-    </AppLayout>
   )
 }

@@ -1,5 +1,4 @@
 import { BarChart2, CheckSquare, Target, TrendingUp } from "lucide-react"
-import { AppLayout } from "@/components/app-layout"
 
 const weeklyActivity = [
   { day: "Mon", tasks: 8 },
@@ -29,7 +28,6 @@ const categories = [
 
 export default function ReportsPage() {
   return (
-    <AppLayout title="Reports">
       <main className="flex flex-1 flex-col gap-6 p-6">
         <div className="flex flex-col gap-1">
           <h1 className="font-display text-3xl font-semibold tracking-tight">Reports</h1>
@@ -88,6 +86,5 @@ export default function ReportsPage() {
           </div>
         </div>
       </main>
-    </AppLayout>
   )
 }

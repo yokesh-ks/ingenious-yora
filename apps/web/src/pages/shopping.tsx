@@ -1,5 +1,4 @@
 import { CheckCircle2, Circle, Plus, ShoppingCart } from "lucide-react"
-import { AppLayout } from "@/components/app-layout"
 import { Button } from "@/components/ui/button"
 
 const lists = [
@@ -38,7 +37,6 @@ const lists = [
 
 export default function ShoppingPage() {
   return (
-    <AppLayout title="Shopping">
       <main className="flex flex-1 flex-col gap-6 p-6">
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-1">
@@ -105,6 +103,5 @@ export default function ShoppingPage() {
           </button>
         </div>
       </main>
-    </AppLayout>
   )
 }

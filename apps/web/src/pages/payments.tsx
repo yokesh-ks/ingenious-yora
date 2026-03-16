@@ -1,5 +1,4 @@
-import { ArrowDownLeft, ArrowUpRight, CreditCard, Plus, TrendingDown, TrendingUp, Wallet } from "lucide-react"
-import { AppLayout } from "@/components/app-layout"
+import { ArrowDownLeft, ArrowUpRight, Plus, TrendingDown, TrendingUp, Wallet } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const transactions = [
@@ -26,7 +25,6 @@ const stats = [
 
 export default function PaymentsPage() {
   return (
-    <AppLayout title="Payments">
       <main className="flex flex-1 flex-col gap-6 p-6">
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-1">
@@ -89,6 +87,5 @@ export default function PaymentsPage() {
           ))}
         </div>
       </main>
-    </AppLayout>
   )
 }

@@ -1,4 +1,4 @@
-import * as React from "react"
+import { Outlet, useMatches } from "@tanstack/react-router"
 import { AppSidebar } from "@/components/app-sidebar"
 import {
   Breadcrumb,
@@ -13,12 +13,12 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar"
 
-interface AppLayoutProps {
-  title: string
-  children: React.ReactNode
-}
+export function AppLayout() {
+  const matches = useMatches()
+  const title =
+    [...matches].reverse().find((m) => m.staticData?.title)?.staticData.title ??
+    ""
 
-export function AppLayout({ title, children }: AppLayoutProps) {
   return (
     <SidebarProvider>
       <AppSidebar />
@@ -36,7 +36,7 @@ export function AppLayout({ title, children }: AppLayoutProps) {
             </BreadcrumbList>
           </Breadcrumb>
         </header>
-        {children}
+        <Outlet />
         <footer className="border-t bg-footer px-6 py-4">
           <p className="text-xs text-footer-foreground/70">
             Ingenious Yora · Personal Management System

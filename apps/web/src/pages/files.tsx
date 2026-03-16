@@ -1,5 +1,4 @@
-import { File, FileImage, FileText, Folder, FolderOpen, Plus, Upload } from "lucide-react"
-import { AppLayout } from "@/components/app-layout"
+import { File, FileImage, FileText, FolderOpen, Plus, Upload } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const folders = [
@@ -27,7 +26,6 @@ function FileIcon({ type }: { type: string }) {
 
 export default function FilesPage() {
   return (
-    <AppLayout title="Files">
       <main className="flex flex-1 flex-col gap-6 p-6">
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-1">
@@ -84,6 +82,5 @@ export default function FilesPage() {
           </div>
         </div>
       </main>
-    </AppLayout>
   )
 }

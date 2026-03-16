@@ -1,5 +1,4 @@
 import { FileText, Plus, Search } from "lucide-react"
-import { AppLayout } from "@/components/app-layout"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
@@ -13,7 +12,6 @@ const notes = [
 
 export default function NotesPage() {
   return (
-    <AppLayout title="Notes">
       <main className="flex flex-1 flex-col gap-6 p-6">
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-1">
@@ -61,6 +59,5 @@ export default function NotesPage() {
           </button>
         </div>
       </main>
-    </AppLayout>
   )
 }
